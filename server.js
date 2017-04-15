@@ -30,6 +30,11 @@ function checkEvents(events, tags) {
 }
 
 checkEvents(events, tags);
-console.log(events);
+
+//4 step - write JSON file with checked events
+let fs = require('fs');
+let eventsJSON = JSON.stringify(events);
+fs.writeFileSync('./admin/events.json', eventsJSON);
+
 // TODO Read JS collections: Array, Map, Set.
 // TODO try regex /($tag| tag |tag^)/
