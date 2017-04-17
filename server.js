@@ -1,11 +1,11 @@
+
 //1 step - get content
-let events = require('./events/events');
-let tags = require('./tags/tags');
+let events = require('./backend/events');
+let tags = require('./backend/tags');
 
 
 //2 step - create checking method by tokens in text
 function eventHasToken(text, token) {
-	text = text.toLowerCase();
 	return (
 		text.indexOf(`${token} `) === 0 ||
 		text.indexOf(` ${token} `) > 0 ||
@@ -18,7 +18,7 @@ function checkEvents(events, tags) {
 	events.forEach(event => {
 		event.labels = [];
 		let text = event.title + ' ' + event.description;
-
+		text = text.toLowerCase();
 		tags.forEach(tag => {
 			tag.token.forEach(token => {
 				if(eventHasToken(text, token)){
@@ -33,8 +33,8 @@ checkEvents(events, tags);
 
 //4 step - write JSON file with checked events
 let fs = require('fs');
-let eventsJSON = JSON.stringify(events);
-fs.writeFileSync('./admin/events.json', eventsJSON);
+let eventsJSON = JSON.stringify(events, null, 2);
+fs.writeFileSync('./backend/checked-events.json', eventsJSON);
 
 // TODO Read JS collections: Array, Map, Set.
 // TODO try regex /($tag| tag |tag^)/

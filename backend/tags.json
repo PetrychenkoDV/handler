@@ -85,7 +85,7 @@
       "token" : ["angularjs", "ангулар", "ангуляр", "angular", "angular.js"],
       "label" : "AngularJS"
     },{
-      "token" : ["react", "react.js", "reactjs"],
+      "token" : ["react", "react.js", "reactjs", "redux", "jsx", "mobx"],
       "label" : "React"
     },{
       "token" : ["backbone", "backbonejs", "backbone.js"],
@@ -94,7 +94,7 @@
       "token" : [".net", "дотнет", "дотнэт", "dot net"],
       "label" : ".NET"
     },{
-      "token" : ["node.js", "ноджс", "нода", "nodejs", "node"],
+      "token" : ["node.js", "ноджс", "нода", "nodejs", "node", "webpack", "babel", "bower", "gulp", "express", "electron"],
       "label" : "Node.js"
     },{
       "token" : ["shell"],
