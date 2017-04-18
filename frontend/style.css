@@ -1,14 +1,17 @@
 html {
 	font-size: 10px;
 }
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
 ul li {
 	list-style-type: none;
 }
+
 .events-container {
 	min-height: 20rem;
 	width: 80%;
@@ -20,11 +23,13 @@ ul li {
 	justify-content: space-between;
 	align-items: stretch;
 }
+
 .event-title {
 	margin: 2rem 0 1.5rem 0;
 	border-bottom: 0.1rem dotted gray;
 	font-size: 3rem;
 }
+
 .event-description {
 	border-bottom: 0.1rem dotted gray;
 	font-size: 2.1rem;
@@ -33,6 +38,7 @@ ul li {
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+
 .labels-list {
 	display: flex;
 	flex-direction: row;
@@ -40,6 +46,7 @@ ul li {
 	align-items: center;
 	margin-top: 1rem;
 }
+
 .label {
 	font-size: 1.3rem;
 	padding: 0 1rem;

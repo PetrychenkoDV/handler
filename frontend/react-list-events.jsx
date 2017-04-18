@@ -1,5 +1,5 @@
 console.clear();
-let ListEventsArr = [
+let EventsListArr = [
 	{
 		"title": "Java или Node.js?",
 		"description": "Добрый день, какой язык/технологию программирования учить? Я студент, в этом году заканчиваю универ. Надо уже бы искать работу. Учил в последнее время Java, сейчас читаю уроки по JavaFX. Недавно написали из компании в моем городе, что нужен JS программист (писать на MeteorJS фреймворке), я собеседование не прошел, сказали учить еще 1-2 месяца Node.js, Meteor и тд. Смотрел вчера рынок фриланса там очень много заказов по JS, а по Java почилал по форумах что фриланс редкий только Enterprise долгосрочные проекты. В нашем городе работы по Java нет. Стоит ли прерывать изучение Java и учить MeteorJS? А если даже не пойду на работу, то буду фрилансить. А на следующий год хотелось бы пойти в бульшую компанию (SoftServe) на курсы Java. Что выбрать? Спасибо",
@@ -31,19 +31,18 @@ let ListEventsArr = [
 	}
 ];
 
-
-let Events = React.createClass({
-	render : function () {
-		let eventsList = ListEventsArr.map(function (event, eventKey) {
+class Events extends React.Component {
+	render () {
+		let eventsList = EventsListArr.map(function (event, eventKey) {
 			return (
-				<div key = {'event_' + eventKey}>
+				<div key={'event_' + eventKey}>
 					<div className="event-title">{event.title}</div>
 					<div className="event-description">{event.description}</div>
 					<ul className="labels-list">
 						{
 							event.labels.map(function (label, labelKey) {
 								return (
-									<li className="label" key = {'label_' + labelKey}>{label}</li>
+									<li className="label" key={'label_' + labelKey}>{label}</li>
 								)
 							})
 						}
@@ -53,7 +52,7 @@ let Events = React.createClass({
 		});
 		return <div>{eventsList}</div>;
 	}
-});
+}
 
 ReactDOM.render(
 	<Events/>,
