@@ -33,6 +33,10 @@ fs.writeFileSync('./backend/checked-events.json', eventsJSON);
 // TODO Read JS collections: Array, Map, Set.
 // TODO try regex /($tag| tag |tag^)/
 function testFunc() {
-	let a = 100;
-
+  let a = 100;
+  return (a/2);
 }
+console.log(testFunc());
+      3
+      3
+          5
