@@ -4,7 +4,7 @@ let events = require('./backend/events');
 let tags = require('./backend/tags');
 //2 step - create checking method by tokens in text
 function eventHasToken(text, token) {
-	return (
+  return (
     text.indexOf(`${token} `) === 0 ||
     text.indexOf(` ${token} `) > 0 ||
     text.indexOf(` ${token}`) === (text.length - ` ${token}`.length)
@@ -32,3 +32,7 @@ let eventsJSON = JSON.stringify(events, null, 2);
 fs.writeFileSync('./backend/checked-events.json', eventsJSON);
 // TODO Read JS collections: Array, Map, Set.
 // TODO try regex /($tag| tag |tag^)/
+function testFunc() {
+	let a = 100;
+
+}
