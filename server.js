@@ -6,19 +6,18 @@ function eventHasToken(text, token) {
   return (
     text.indexOf(`${token} `) === 0 ||
     text.indexOf(` ${token} `) > 0 ||
-    text.indexOf(` ${token}`) === (text.length - ` ${token}`.length)
+    text.indexOf(` ${token}`) === (text.length - ` ${token}`.length) ||
+    text.indexOf(` ${token}, `) > 0
   );
 }
 //3 step - create a method for analyzing the received events
 function checkEvents(events, tags) {
   events.forEach(event => {
-    // event.id = '';
     event.labels = [];
-    let text = event.title + ' ' + event.description;
-    text = text.toLowerCase();
+    let text = (event.title + ' ' + event.description).toLowerCase();
     tags.forEach(tag => {
       tag.token.forEach(token => {
-        if (eventHasToken(text, token)) {
+        if (eventHasToken(text, token) && event.labels.indexOf(tag.label) < 0) {
           event.labels.push(tag.label);
         }
       });
