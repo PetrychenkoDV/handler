@@ -1,673 +1,673 @@
 [
-	{
-		"token": [
-			"java",
-			"jee",
-			"ява",
-			"jawa"
-		],
-		"label": "Java"
-	},
-	{
-		"token": [
-			"javascript",
-			"js",
-			"java script",
-			"джаваскрипт",
-			"джава скрипт",
-			"яваскрипт",
-			"ява скрипт",
-			"js5",
-			"js6",
-			"ecma",
-			"ecmascript"
-		],
-		"label": "JavaScript"
-	},
-	{
-		"token": [
-			"php",
-			"пэхопэ",
-			"пыха"
-		],
-		"label": "PHP"
-	},
-	{
-		"token": [
-			"python",
-			"питон",
-			"пайтон",
-			"питончег"
-		],
-		"label": "Python"
-	},
-	{
-		"token": [
-			"ruby",
-			"руби"
-		],
-		"label": "Ruby"
-	},
-	{
-		"token": [
-			"perl",
-			"перл"
-		],
-		"label": "Perl"
-	},
-	{
-		"token": [
-			"f#",
-			"эфшарп"
-		],
-		"label": "F#"
-	},
-	{
-		"token": [
-			"c#",
-			"сишарп"
-		],
-		"label": "C#"
-	},
-	{
-		"token": [
-			"c++",
-			"плюсы",
-			"cpp"
-		],
-		"label": "C++"
-	},
-	{
-		"token": [
-			"c",
-			"си"
-		],
-		"label": "C"
-	},
-	{
-		"token": [
-			"scala",
-			"скала"
-		],
-		"label": "Scala"
-	},
-	{
-		"token": [
-			"groovy",
-			"груви"
-		],
-		"label": "Groovy"
-	},
-	{
-		"token": [
-			"haskell",
-			"хаскель",
-			"хачкель"
-		],
-		"label": "Haskell"
-	},
-	{
-		"token": [
-			"clojure",
-			"кложур"
-		],
-		"label": "Clojure"
-	},
-	{
-		"token": [
-			"Lisp",
-			"лисп"
-		],
-		"label": "Lisp"
-	},
-	{
-		"token": [
-			"erlang",
-			"эрланг",
-			"ерланг"
-		],
-		"label": "Erlang"
-	},
-	{
-		"token": [
-			"matlab",
-			"матлаб"
-		],
-		"label": "Matlab"
-	},
-	{
-		"token": [
-			"r"
-		],
-		"label": "R"
-	},
-	{
-		"token": [
-			"swift",
-			"свифт"
-		],
-		"label": "Swift"
-	},
-	{
-		"token": [
-			"objective-c",
-			"обджектив с",
-			"обжектив с"
-		],
-		"label": "Objective-C"
-	},
-	{
-		"token": [
-			"go",
-			"go lang"
-		],
-		"label": "Go"
-	},
-	{
-		"token": [
-			"delphi",
-			"делфи",
-			"дельфи",
-			"дэльфи",
-			"дэлфи",
-			"delfi"
-		],
-		"label": "Delphi"
-	},
-	{
-		"token": [
-			"pascal",
-			"паскаль"
-		],
-		"label": "Pascal"
-	},
-	{
-		"token": [
-			"visual basic",
-			"бейсик",
-			"vb",
-			"visualbasic",
-			"вижуал бейсик",
-			"basic"
-		],
-		"label": "Visual Basic"
-	},
-	{
-		"token": [
-			"css",
-			"цсс",
-			"css3"
-		],
-		"label": "CSS"
-	},
-	{
-		"token": [
-			"less",
-			"лесс"
-		],
-		"label": "LESS"
-	},
-	{
-		"token": [
-			"html",
-			"html5"
-		],
-		"label": "HTML"
-	},
-	{
-		"token": [
-			"angularjs",
-			"ангулар",
-			"ангуляр",
-			"angular",
-			"angular.js"
-		],
-		"label": "AngularJS"
-	},
-	{
-		"token": [
-			"react",
-			"react.js",
-			"reactjs",
-			"redux",
-			"jsx",
-			"mobx"
-		],
-		"label": "React"
-	},
-	{
-		"token": [
-			"backbone",
-			"backbonejs",
-			"backbone.js"
-		],
-		"label": "Backbone"
-	},
-	{
-		"token": [
-			".net",
-			"дотнет",
-			"дотнэт",
-			"dot net"
-		],
-		"label": ".NET"
-	},
-	{
-		"token": [
-			"node.js",
-			"ноджс",
-			"нода",
-			"nodejs",
-			"node",
-			"webpack",
-			"babel",
-			"bower",
-			"gulp",
-			"express",
-			"electron"
-		],
-		"label": "Node.js"
-	},
-	{
-		"token": [
-			"shell"
-		],
-		"label": "Shell"
-	},
-	{
-		"token": [
-			"bash",
-			"bash script"
-		],
-		"label": "Bash"
-	},
-	{
-		"token": [
-			"linux",
-			"линкус",
-			"линух",
-			"линуха"
-		],
-		"label": "Linux"
-	},
-	{
-		"token": [
-			"Windows",
-			"виндовс",
-			"винда",
-			"виндовз"
-		],
-		"label": "Windows"
-	},
-	{
-		"token": [
-			"mac os",
-			"mac",
-			"мак",
-			"мак ос",
-			"osx",
-			"macos"
-		],
-		"label": "Mac OS"
-	},
-	{
-		"token": [
-			"ios",
-			"айос",
-			"ай ос"
-		],
-		"label": "iOS"
-	},
-	{
-		"token": [
-			"android",
-			"андроид",
-			"андройд"
-		],
-		"label": "Android"
-	},
-	{
-		"token": [
-			"windows phone"
-		],
-		"label": "Windows Phone"
-	},
-	{
-		"token": [
-			"jvm",
-			"жвм"
-		],
-		"label": "JVM"
-	},
-	{
-		"token": [
-			"sql",
-			"эскюэль",
-			"сиквел"
-		],
-		"label": "SQL"
-	},
-	{
-		"token": [
-			"postgressql",
-			"postgres",
-			"postgres sql",
-			"постгрес"
-		],
-		"label": "PostgreSQL"
-	},
-	{
-		"token": [
-			"mysql",
-			"my sql",
-			"мускул"
-		],
-		"label": "MySQL"
-	},
-	{
-		"token": [
-			"oracle",
-			"оракл"
-		],
-		"label": "Oracle"
-	},
-	{
-		"token": [
-			"sql server",
-			"sqlserver"
-		],
-		"label": "SQL Server"
-	},
-	{
-		"token": [
-			"db",
-			"база дынных",
-			"бд"
-		],
-		"label": "DB"
-	},
-	{
-		"token": [
-			"mongodb",
-			"монга",
-			"монго дб"
-		],
-		"label": "MongoDB"
-	},
-	{
-		"token": [
-			"couchbase",
-			"каучбейз",
-			"каучбейс",
-			"коучбейс",
-			"коучбейз"
-		],
-		"label": "Couchbase"
-	},
-	{
-		"token": [
-			"couchdb",
-			"каучдб",
-			"кауч дб",
-			"коучдб",
-			"коуч дб"
-		],
-		"label": "CouchDB"
-	},
-	{
-		"token": [
-			"redis",
-			"редис",
-			"рэдис"
-		],
-		"label": "Redis"
-	},
-	{
-		"token": [
-			"elasticsearch",
-			"elastic",
-			"elastic search",
-			"эластик"
-		],
-		"label": "ElasticSearch"
-	},
-	{
-		"token": [
-			"asure",
-			"ажур",
-			"азур"
-		],
-		"label": "Asure"
-	},
-	{
-		"token": [
-			"aws",
-			"amazon web services"
-		],
-		"label": "AWS"
-	},
-	{
-		"token": [
-			"spark",
-			"спарк"
-		],
-		"label": "Spark"
-	},
-	{
-		"token": [
-			"big data",
-			"биг дата"
-		],
-		"label": "Big Data"
-	},
-	{
-		"token": [
-			"machine learning",
-			"ml",
-			"машинное обучение"
-		],
-		"label": "Machine learning"
-	},
-	{
-		"token": [
-			"artificial intelligence",
-			"ai",
-			"искусственный интеллект"
-		],
-		"label": "Artificial intelligence"
-	},
-	{
-		"token": [
-			"e-commerce",
-			"электронная комерция",
-			"электронная коммерция"
-		],
-		"label": "e-Commerce"
-	},
-	{
-		"token": [
-			"design",
-			"дизайн",
-			"дезигн"
-		],
-		"label": "Design"
-	},
-	{
-		"token": [
-			"ux",
-			"юикс",
-			"юзабилити",
-			"usability",
-			"user friendly"
-		],
-		"label": "UX"
-	},
-	{
-		"token": [
-			"ui",
-			"юай",
-			"пользовательский интерфейс"
-		],
-		"label": "UI"
-	},
-	{
-		"token": [
-			"UI/UX"
-		],
-		"label": "UI/UX"
-	},
-	{
-		"token": [
-			"front end",
-			"фронтенд",
-			"frontend",
-			"фронт энд",
-			"фронт енд",
-			"фронтэнд"
-		],
-		"label": "Front End"
-	},
-	{
-		"token": [
-			"back end",
-			"backend",
-			"бэкэнд",
-			"бек энд",
-			"бэк энд",
-			"бекэнд",
-			"бек енд",
-			"бэк енд",
-			"бекенд",
-			"бэкенд"
-		],
-		"label": "Back End"
-	},
-	{
-		"token": [
-			"magento",
-			"мадженто",
-			"маженто"
-		],
-		"label": "Magento"
-	},
-	{
-		"token": [
-			"wordpress",
-			"вордпрес",
-			"wp",
-			"вордпресс",
-			"word press"
-		],
-		"label": "WordPress"
-	},
-	{
-		"token": [
-			"joomla",
-			"джумла",
-			"жумла"
-		],
-		"label": "Joomla"
-	},
-	{
-		"token": [
-			"3d",
-			"3-d"
-		],
-		"label": "3D"
-	},
-	{
-		"token": [
-			"photoshop",
-			"фотошоп",
-			"adobe photoshop"
-		],
-		"label": "Photoshop"
-	},
-	{
-		"token": [
-			"illustrator",
-			"илюстратор",
-			"adobe illustrator"
-		],
-		"label": "Illustrator"
-	},
-	{
-		"token": [
-			"augment reality",
-			"ar"
-		],
-		"label": "Augment Reality"
-	},
-	{
-		"token": [
-			"web",
-			"вэб",
-			"веб",
-			"web development",
-			"webdev",
-			"web dev"
-		],
-		"label": "Web"
-	},
-	{
-		"token": [
-			"mobile",
-			"mobile development"
-		],
-		"label": "Mobile"
-	},
-	{
-		"token": [
-			"программирование",
-			"програм",
-			"programing",
-			"coding",
-			"development"
-		],
-		"label": "Программирование"
-	},
-	{
-		"token": [
-			"хакатон",
-			"hackathon"
-		],
-		"label": "Хакатон"
-	},
-	{
-		"token": [
-			"scrum",
-			"скрам"
-		],
-		"label": "Scrum"
-	},
-	{
-		"token": [
-			"kanban",
-			"канбан"
-		],
-		"label": "Kanban"
-	},
-	{
-		"token": [
-			"agile",
-			"аджайл",
-			"аджаил"
-		],
-		"label": "Agile"
-	},
-	{
-		"token": [
-			"стартап",
-			"startup"
-		],
-		"label": "Стартапы"
-	},
-	{
-		"token": [
-			"инвестиции",
-			"инвест",
-			"венчурный капитал"
-		],
-		"label": "Инвестиции"
-	}
+  {
+    "token": [
+      "java",
+      "jee",
+      "ява",
+      "jawa"
+    ],
+    "label": "Java"
+  },
+  {
+    "token": [
+      "javascript",
+      "js",
+      "java script",
+      "джаваскрипт",
+      "джава скрипт",
+      "яваскрипт",
+      "ява скрипт",
+      "js5",
+      "js6",
+      "ecma",
+      "ecmascript"
+    ],
+    "label": "JavaScript"
+  },
+  {
+    "token": [
+      "php",
+      "пэхопэ",
+      "пыха"
+    ],
+    "label": "PHP"
+  },
+  {
+    "token": [
+      "python",
+      "питон",
+      "пайтон",
+      "питончег"
+    ],
+    "label": "Python"
+  },
+  {
+    "token": [
+      "ruby",
+      "руби"
+    ],
+    "label": "Ruby"
+  },
+  {
+    "token": [
+      "perl",
+      "перл"
+    ],
+    "label": "Perl"
+  },
+  {
+    "token": [
+      "f#",
+      "эфшарп"
+    ],
+    "label": "F#"
+  },
+  {
+    "token": [
+      "c#",
+      "сишарп"
+    ],
+    "label": "C#"
+  },
+  {
+    "token": [
+      "c++",
+      "плюсы",
+      "cpp"
+    ],
+    "label": "C++"
+  },
+  {
+    "token": [
+      "c",
+      "си"
+    ],
+    "label": "C"
+  },
+  {
+    "token": [
+      "scala",
+      "скала"
+    ],
+    "label": "Scala"
+  },
+  {
+    "token": [
+      "groovy",
+      "груви"
+    ],
+    "label": "Groovy"
+  },
+  {
+    "token": [
+      "haskell",
+      "хаскель",
+      "хачкель"
+    ],
+    "label": "Haskell"
+  },
+  {
+    "token": [
+      "clojure",
+      "кложур"
+    ],
+    "label": "Clojure"
+  },
+  {
+    "token": [
+      "Lisp",
+      "лисп"
+    ],
+    "label": "Lisp"
+  },
+  {
+    "token": [
+      "erlang",
+      "эрланг",
+      "ерланг"
+    ],
+    "label": "Erlang"
+  },
+  {
+    "token": [
+      "matlab",
+      "матлаб"
+    ],
+    "label": "Matlab"
+  },
+  {
+    "token": [
+      "r"
+    ],
+    "label": "R"
+  },
+  {
+    "token": [
+      "swift",
+      "свифт"
+    ],
+    "label": "Swift"
+  },
+  {
+    "token": [
+      "objective-c",
+      "обджектив с",
+      "обжектив с"
+    ],
+    "label": "Objective-C"
+  },
+  {
+    "token": [
+      "go",
+      "go lang"
+    ],
+    "label": "Go"
+  },
+  {
+    "token": [
+      "delphi",
+      "делфи",
+      "дельфи",
+      "дэльфи",
+      "дэлфи",
+      "delfi"
+    ],
+    "label": "Delphi"
+  },
+  {
+    "token": [
+      "pascal",
+      "паскаль"
+    ],
+    "label": "Pascal"
+  },
+  {
+    "token": [
+      "visual basic",
+      "бейсик",
+      "vb",
+      "visualbasic",
+      "вижуал бейсик",
+      "basic"
+    ],
+    "label": "Visual Basic"
+  },
+  {
+    "token": [
+      "css",
+      "цсс",
+      "css3"
+    ],
+    "label": "CSS"
+  },
+  {
+    "token": [
+      "less",
+      "лесс"
+    ],
+    "label": "LESS"
+  },
+  {
+    "token": [
+      "html",
+      "html5"
+    ],
+    "label": "HTML"
+  },
+  {
+    "token": [
+      "angularjs",
+      "ангулар",
+      "ангуляр",
+      "angular",
+      "angular.js"
+    ],
+    "label": "AngularJS"
+  },
+  {
+    "token": [
+      "react",
+      "react.js",
+      "reactjs",
+      "redux",
+      "jsx",
+      "mobx"
+    ],
+    "label": "React"
+  },
+  {
+    "token": [
+      "backbone",
+      "backbonejs",
+      "backbone.js"
+    ],
+    "label": "Backbone"
+  },
+  {
+    "token": [
+      ".net",
+      "дотнет",
+      "дотнэт",
+      "dot net"
+    ],
+    "label": ".NET"
+  },
+  {
+    "token": [
+      "node.js",
+      "ноджс",
+      "нода",
+      "nodejs",
+      "node",
+      "webpack",
+      "babel",
+      "bower",
+      "gulp",
+      "express",
+      "electron"
+    ],
+    "label": "Node.js"
+  },
+  {
+    "token": [
+      "shell"
+    ],
+    "label": "Shell"
+  },
+  {
+    "token": [
+      "bash",
+      "bash script"
+    ],
+    "label": "Bash"
+  },
+  {
+    "token": [
+      "linux",
+      "линкус",
+      "линух",
+      "линуха"
+    ],
+    "label": "Linux"
+  },
+  {
+    "token": [
+      "Windows",
+      "виндовс",
+      "винда",
+      "виндовз"
+    ],
+    "label": "Windows"
+  },
+  {
+    "token": [
+      "mac os",
+      "mac",
+      "мак",
+      "мак ос",
+      "osx",
+      "macos"
+    ],
+    "label": "Mac OS"
+  },
+  {
+    "token": [
+      "ios",
+      "айос",
+      "ай ос"
+    ],
+    "label": "iOS"
+  },
+  {
+    "token": [
+      "android",
+      "андроид",
+      "андройд"
+    ],
+    "label": "Android"
+  },
+  {
+    "token": [
+      "windows phone"
+    ],
+    "label": "Windows Phone"
+  },
+  {
+    "token": [
+      "jvm",
+      "жвм"
+    ],
+    "label": "JVM"
+  },
+  {
+    "token": [
+      "sql",
+      "эскюэль",
+      "сиквел"
+    ],
+    "label": "SQL"
+  },
+  {
+    "token": [
+      "postgressql",
+      "postgres",
+      "postgres sql",
+      "постгрес"
+    ],
+    "label": "PostgreSQL"
+  },
+  {
+    "token": [
+      "mysql",
+      "my sql",
+      "мускул"
+    ],
+    "label": "MySQL"
+  },
+  {
+    "token": [
+      "oracle",
+      "оракл"
+    ],
+    "label": "Oracle"
+  },
+  {
+    "token": [
+      "sql server",
+      "sqlserver"
+    ],
+    "label": "SQL Server"
+  },
+  {
+    "token": [
+      "db",
+      "база дынных",
+      "бд"
+    ],
+    "label": "DB"
+  },
+  {
+    "token": [
+      "mongodb",
+      "монга",
+      "монго дб"
+    ],
+    "label": "MongoDB"
+  },
+  {
+    "token": [
+      "couchbase",
+      "каучбейз",
+      "каучбейс",
+      "коучбейс",
+      "коучбейз"
+    ],
+    "label": "Couchbase"
+  },
+  {
+    "token": [
+      "couchdb",
+      "каучдб",
+      "кауч дб",
+      "коучдб",
+      "коуч дб"
+    ],
+    "label": "CouchDB"
+  },
+  {
+    "token": [
+      "redis",
+      "редис",
+      "рэдис"
+    ],
+    "label": "Redis"
+  },
+  {
+    "token": [
+      "elasticsearch",
+      "elastic",
+      "elastic search",
+      "эластик"
+    ],
+    "label": "ElasticSearch"
+  },
+  {
+    "token": [
+      "asure",
+      "ажур",
+      "азур"
+    ],
+    "label": "Asure"
+  },
+  {
+    "token": [
+      "aws",
+      "amazon web services"
+    ],
+    "label": "AWS"
+  },
+  {
+    "token": [
+      "spark",
+      "спарк"
+    ],
+    "label": "Spark"
+  },
+  {
+    "token": [
+      "big data",
+      "биг дата"
+    ],
+    "label": "Big Data"
+  },
+  {
+    "token": [
+      "machine learning",
+      "ml",
+      "машинное обучение"
+    ],
+    "label": "Machine learning"
+  },
+  {
+    "token": [
+      "artificial intelligence",
+      "ai",
+      "искусственный интеллект"
+    ],
+    "label": "Artificial intelligence"
+  },
+  {
+    "token": [
+      "e-commerce",
+      "электронная комерция",
+      "электронная коммерция"
+    ],
+    "label": "e-Commerce"
+  },
+  {
+    "token": [
+      "design",
+      "дизайн",
+      "дезигн"
+    ],
+    "label": "Design"
+  },
+  {
+    "token": [
+      "ux",
+      "юикс",
+      "юзабилити",
+      "usability",
+      "user friendly"
+    ],
+    "label": "UX"
+  },
+  {
+    "token": [
+      "ui",
+      "юай",
+      "пользовательский интерфейс"
+    ],
+    "label": "UI"
+  },
+  {
+    "token": [
+      "UI/UX"
+    ],
+    "label": "UI/UX"
+  },
+  {
+    "token": [
+      "front end",
+      "фронтенд",
+      "frontend",
+      "фронт энд",
+      "фронт енд",
+      "фронтэнд"
+    ],
+    "label": "Front End"
+  },
+  {
+    "token": [
+      "back end",
+      "backend",
+      "бэкэнд",
+      "бек энд",
+      "бэк энд",
+      "бекэнд",
+      "бек енд",
+      "бэк енд",
+      "бекенд",
+      "бэкенд"
+    ],
+    "label": "Back End"
+  },
+  {
+    "token": [
+      "magento",
+      "мадженто",
+      "маженто"
+    ],
+    "label": "Magento"
+  },
+  {
+    "token": [
+      "wordpress",
+      "вордпрес",
+      "wp",
+      "вордпресс",
+      "word press"
+    ],
+    "label": "WordPress"
+  },
+  {
+    "token": [
+      "joomla",
+      "джумла",
+      "жумла"
+    ],
+    "label": "Joomla"
+  },
+  {
+    "token": [
+      "3d",
+      "3-d"
+    ],
+    "label": "3D"
+  },
+  {
+    "token": [
+      "photoshop",
+      "фотошоп",
+      "adobe photoshop"
+    ],
+    "label": "Photoshop"
+  },
+  {
+    "token": [
+      "illustrator",
+      "илюстратор",
+      "adobe illustrator"
+    ],
+    "label": "Illustrator"
+  },
+  {
+    "token": [
+      "augment reality",
+      "ar"
+    ],
+    "label": "Augment Reality"
+  },
+  {
+    "token": [
+      "web",
+      "вэб",
+      "веб",
+      "web development",
+      "webdev",
+      "web dev"
+    ],
+    "label": "Web"
+  },
+  {
+    "token": [
+      "mobile",
+      "mobile development"
+    ],
+    "label": "Mobile"
+  },
+  {
+    "token": [
+      "программирование",
+      "програм",
+      "programing",
+      "coding",
+      "development"
+    ],
+    "label": "Программирование"
+  },
+  {
+    "token": [
+      "хакатон",
+      "hackathon"
+    ],
+    "label": "Хакатон"
+  },
+  {
+    "token": [
+      "scrum",
+      "скрам"
+    ],
+    "label": "Scrum"
+  },
+  {
+    "token": [
+      "kanban",
+      "канбан"
+    ],
+    "label": "Kanban"
+  },
+  {
+    "token": [
+      "agile",
+      "аджайл",
+      "аджаил"
+    ],
+    "label": "Agile"
+  },
+  {
+    "token": [
+      "стартап",
+      "startup"
+    ],
+    "label": "Стартапы"
+  },
+  {
+    "token": [
+      "инвестиции",
+      "инвест",
+      "венчурный капитал"
+    ],
+    "label": "Инвестиции"
+  }
 ]

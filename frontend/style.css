@@ -1,56 +1,56 @@
 html {
-	font-size: 10px;
+  font-size: 10px;
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ul li {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .events-container {
-	min-height: 20rem;
-	width: 80%;
-	border: 0.1rem solid gray;
-	margin: 0 auto;
-	padding: 1rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: stretch;
+  min-height: 20rem;
+  width: 80%;
+  border: 0.1rem solid gray;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 .event-title {
-	margin: 2rem 0 1.5rem 0;
-	border-bottom: 0.1rem dotted gray;
-	font-size: 3rem;
+  margin: 2rem 0 1.5rem 0;
+  border-bottom: 0.1rem dotted gray;
+  font-size: 3rem;
 }
 
 .event-description {
-	border-bottom: 0.1rem dotted gray;
-	font-size: 2.1rem;
-	text-align: justify;
-	max-height: 10rem;
-	overflow: hidden;
-	text-overflow: ellipsis;
+  border-bottom: 0.1rem dotted gray;
+  font-size: 2.1rem;
+  text-align: justify;
+  max-height: 10rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .labels-list {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
-	margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 .label {
-	font-size: 1.3rem;
-	padding: 0 1rem;
-	border-radius: 0.5rem;
-	background-color: #dcd3d3;
-	margin: 0 0.5rem;
+  font-size: 1.3rem;
+  padding: 0 1rem;
+  border-radius: 0.5rem;
+  background-color: #dcd3d3;
+  margin: 0 0.5rem;
 }
