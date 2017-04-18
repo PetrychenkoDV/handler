@@ -30,9 +30,8 @@ let EventsListArr = [
 		]
 	}
 ];
-
 class Events extends React.Component {
-	render () {
+	render() {
 		let eventsList = EventsListArr.map(function (event, eventKey) {
 			return (
 				<div key={'event_' + eventKey}>
@@ -53,7 +52,6 @@ class Events extends React.Component {
 		return <div>{eventsList}</div>;
 	}
 }
-
 ReactDOM.render(
 	<Events/>,
 	document.getElementById('events-container')

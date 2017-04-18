@@ -1,4 +1,5 @@
 //1 step - get content
+
 let events = require('./backend/events');
 let tags = require('./backend/tags');
 //2 step - create checking method by tokens in text
@@ -19,7 +20,7 @@ function checkEvents(events, tags) {
 		tags.forEach(tag => {
 			tag.token.forEach(token => {
 				if (eventHasToken(text, token)) {
-					event.labels.push(tag.label);
+				event.labels.push(tag.label);
 				}
 			});
 		});
